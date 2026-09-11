@@ -81,9 +81,12 @@ student-portal/
 │
 ├── resources/
 │   └── views/
-│       └── students/
-│           ├── index.blade.php
-│           └── show.blade.php
+│       │ 
+│       ├──  Layouts/
+│       │    └── app.blade.php
+│       │ 
+│       └──  Students/
+│            └── index.blade.php
 │
 ├── routes/
 │   └── web.php
